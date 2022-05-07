@@ -1,0 +1,152 @@
+
+body{
+    min-height: 100%;
+    font-family: 'Play', sans-serif;
+}
+
+.main-navigation {
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+nav{
+display: flex;
+align-items: center;
+justify-content: space-between;
+border-bottom-style:solid;
+border-bottom-color:#6495ED;
+border-bottom-width: 1px;
+Height: 100px;
+
+overflow: hidden;
+
+
+}
+nav img{
+    max-height: 100%;
+    width:auto;
+}
+
+
+nav ul{
+    padding: 30px;
+}
+nav li {
+    font-size: 30px;
+    display: inline-flex;
+    padding: 10px;
+    color: RGB(91,39,83);
+    
+}
+main{
+   
+    align-items: center;
+    justify-content: center;
+
+    
+}
+div.hero {
+  
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+    height: 600px;
+    min-width:100%;
+    flex-direction: column;
+
+    background: url("./Images/stockvault-customer-relationship-management-crm-software-as-a-service-saas241915.jpg");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: local;
+ 
+
+
+}
+div.banner{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+   
+    flex-direction: column;
+
+background-color:rgba(47,182,216,0.8);
+width:100%;
+
+}
+h1{
+    color: RGB(91,39,83);
+}
+h2{
+    color: RGB(232,201,9);
+}
+.Services{
+    height:500%;
+}
+.Services h2, .about h2,.contact h2{
+background-color: RGBa(91,39,83,0.8);
+font-size: 36px;
+align-self: center;
+
+}
+.blocos{
+padding-top: 20px;
+display: inline-flex;
+
+height: 400px;
+width:100%;
+justify-content: space-evenly;
+
+
+}
+.blocos img{
+flex-shrink: 1;
+max-width: 100%;
+max-height: auto;
+
+
+}
+.Reporting{
+    justify-content: center;
+    align-items: center;
+    max-width: 300px;
+}
+.Operations{
+    justify-content: center;
+    align-items: center;
+    max-width: 300px;
+}
+.FreightForwarding{
+    justify-content: center;
+    align-items: center;
+    max-width: 300px;
+}
+.blocos2{
+    display:inline-flex;
+    max-height:400px
+    
+}
+.about img{
+flex-shrink: 1;
+max-height:300px;
+width: auto;
+overflow: hidden;}
+.contact{
+    max-height: 200px;
+}
+
+
+
+
+footer{
+
+max-height: 200px;
+background-color:RGBa(91,39,83,0.8) ;
+background-position: center;
+background-size: cover;
+color: RGB(91,39,83);
+
+
+}
